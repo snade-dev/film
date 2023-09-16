@@ -488,6 +488,10 @@ main{
     font-size: 60px;
   }
 
+  .closebtn:hover::before {
+    border: none;
+  }
+
 /* -------------------------------------------------------- Contact */
 
 #contact {
