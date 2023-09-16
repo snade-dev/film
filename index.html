@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Central Ciné</title>
+</head>
+<body>
+ 
+    <nav class="deskop-nav">
+        <div class="logo1">City Film</div>
+
+        <div class="clicker">
+            <div class="hamburger">
+                <span class="burger-ligne"></span>
+                <span class="burger-ligne"></span>
+                <span class="burger-ligne"></span>
+            </div>
+    
+            <div>
+                
+                <ul class="lien">
+                    <li><a href="#Home-Ancre">Home</a></li>
+                    <li><a href="./about/About.html">About</a></li>
+                    <div class="logo">City Film</div>
+                    <li><a href="#film-ancre">Films</a></li>
+                    <li><a href="#Contact-Ancre">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="header-home">
+        <div id="Home-Ancre"></div>
+        <h1>Découvrer nos <span>Films</span></h1>
+        <h2>Snade Corp</h2>
+        <hr>
+        <p>Le Cinema dans toute sa grandeurr</p>
+        <div class="home-btns">
+            <a href="#film-ancre" class="home-btn home-btn1">Voir nos Film</a>
+            <a href="#Contact-Ancre" class="home-btn home-btn2">Nous Contacter</a>
+        </div>
+    </header>
+
+    <div class="section1">
+        <div id="About-Ancre"></div>
+        <h3>About Us</h3>
+        <div class="flex-section">
+            <div class="text-section">
+                <p class="texter">
+                    Lorem, ipsum dolor sit amet consectetur 
+                adipisicing elit. Atque alias nulla quae eos libero ipsa provident quos tempora nisi! Fugiat ratione 
+                temporibus amet placeat corporis vel possimus distinctio suscipit tempore at deserunt, ipsum ullam blanditiis molestias 
+                laboriosam, cumque provident! Ex pariatur magnam sunt, obcaecati dignissimos reprehenderit voluptas 
+                asperiores repellendus culpa!
+                </p>
+                <p class="texter">
+                    Lorem, ipsum dolor sit amet consectetur 
+                adipisicing elit. Atque alias nulla quae eos libero ipsa provident quos tempora nisi! Fugiat ratione 
+                temporibus amet placeat corporis vel possimus distinctio suscipit tempore at deserunt, ipsum ullam blanditiis molestias 
+                laboriosam, cumque provident! Ex pariatur magnam sunt, obcaecati dignissimos reprehenderit voluptas 
+                asperiores repellendus culpa!
+                </p>
+                <p class="texter">
+                    Lorem, ipsum dolor sit amet consectetur 
+                adipisicing elit. Atque alias nulla quae eos libero ipsa provident quos tempora nisi! Fugiat ratione 
+                temporibus amet placeat corporis vel possimus distinctio suscipit tempore at deserunt, ipsum ullam blanditiis molestias 
+                laboriosam, cumque provident! Ex pariatur magnam sunt, obcaecati dignissimos reprehenderit voluptas 
+                asperiores repellendus culpa!
+                </p>
+            </div>
+            <div class="img-section">
+                <img src="src/fond-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <section class="section2">
+        <div id="film-ancre"></div>
+        <div class="titre">
+            <h3 class="film-titre">Films</h3>
+        </div>
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          
+            <!-- Overlay content -->
+            <div class="overlay-content" id="overlay-content"></div>
+            
+            <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a> 
+            
+            <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>
+    
+          </div>
+
+        <main id="main"></main>
+        <div class="pagination">
+            <div class="page" id="prev">Previous Page</div>
+            <div class="current" id="current">1</div>
+            <div class="page" id="next">Next Page</div>
+            
+        </div>
+        <a href="./movie2/movie.html" class="Plus">Voir Plus</a>
+    </section>
+    
+    <section id="contact">
+        <div id="Contact-Ancre"></div>
+        <div class="newsletter-ligne"></div>
+        <h4>Contact</h4>
+        <form action="" class="contact">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" placeholder="Indiquez votre nom">
+            <label for="prenom">Prenom</label>
+            <input type="text" id="prenom" placeholder="Indiquez votre prenom">
+            <label for="mail">Mail</label>
+            <input type="mail" id="mail" placeholder="Indiquez votre mail">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <button class="home-btn" onclick="window.open('https://mail.google.com/mail/u/0/?hl=fr&hl=fr&hl=fr#sent')">Envoyer votre message</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <div class="footer-liens">
+            <img src="src/logo.png" alt="">
+            <p><a href="#">Mention legales</a></p>
+            <p><a href="#">Politiques de confidentialités</a></p>
+        </div>
+        <hr>
+        <p>&copy; - Snade Corp - 2023 - Tout droit réserver</p>
+    </footer>
+    
+    <script src="app.js"></script>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
