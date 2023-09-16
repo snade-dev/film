@@ -84,8 +84,13 @@ a:hover::before {
 }
 
 .logo1 {
+    color: #891506;
     display: none;
     font-size: 2rem;
+}
+
+nav {
+    padding: 1rem 2rem;
 }
 
 

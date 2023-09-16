@@ -598,7 +598,12 @@ footer p {
 }
 
 @media screen and (max-width: 1100px) {
-    
+    .section2 .Plus {
+        text-align: end;
+        bottom: 1rem;
+        left: 2rem;
+        color: #f1f1f1;
+    }
 }
 
 
@@ -625,7 +630,12 @@ footer p {
 
     .logo1 {
         display: block;
+        font-size: calc(25px + 1vw);
         color: #891506;
+    }
+
+    nav {
+        padding: 1rem 2rem;
     }
 
     .deskop-nav {
@@ -686,7 +696,6 @@ footer p {
         width: 100%;
         position: absolute;
         left: 0;
-        /* padding: 0.5rem; */
         background-color: #244C6F;
         height: 185px;
         opacity: 0;
@@ -718,6 +727,14 @@ footer p {
 
     .img-section {
         width: 100%;
+    }
+
+    .section2 .Plus {
+        text-align: end;
+        position: relative;
+        bottom: 1rem;
+        right: 2rem;
+        color: #f1f1f1;
     }
 
 }

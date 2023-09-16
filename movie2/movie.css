@@ -90,7 +90,11 @@ a:hover::before {
 
 .logo1 {
     display: none;
-    font-size: 2rem;
+    font-size: calc(25px + 1vw);
+}
+
+nav {
+    padding: 1rem 2rem;
 }
 
 
